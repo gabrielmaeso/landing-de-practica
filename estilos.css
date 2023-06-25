@@ -79,6 +79,40 @@ body{
     color: blue;
 }
 
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    width: 40%;
+}
+
+.header-txt h1{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-txt p{
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
 img{
     width: 100%;
 }
