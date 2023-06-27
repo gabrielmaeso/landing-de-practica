@@ -101,7 +101,7 @@ body{
     line-height: 80px;
     font-weight: 700;
     text-transform: uppercase;
-    color: black;
+    color: #266371;
     margin-bottom: 25px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -113,6 +113,36 @@ body{
     margin-bottom: 25px;
 }
 
-img{
+.btn-1{
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #ffff;
+    background-color: aqua;
+    box-sizing: 0 0 20px black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn-1:hover {
+    background-color: black;
+}
+
+.images{
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+}
+
+.swiper{
     width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
