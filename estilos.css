@@ -172,14 +172,6 @@ body{
     bottom: 280px;
 }
 
-.swiper-button-prev{
-    height: 50px;
-    width: 50px;
-    border: 2px solid #ffff;
-    border-radius: 50%;
-    font-size: 15px
-}
-
 .swiper-button-next{
     height: 50px;
     width: 50px;
@@ -188,7 +180,20 @@ body{
     font-size: 15px
 }
 
+.swiper-button-prev{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    font-size: 15px
+}
+
 .swiper-button-prev::after{
+    font-size: 25px;
+    color: #ffff;
+}
+
+.swiper-button-next::after{
     font-size: 25px;
     color: #ffff;
 }
