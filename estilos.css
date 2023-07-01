@@ -61,7 +61,7 @@ body{
 }
 
 .menu .navbar ul li a:hover{
-    color: blue;
+    color: #266371;
 }
 
 .icons{
@@ -76,7 +76,7 @@ body{
 }
 
 .icons i:hover{
-    color: blue;
+    color: #266371;
 }
 
 #menu{
@@ -93,7 +93,7 @@ body{
 }
 
 .header-txt{
-    width: 40%;
+    width: 50%;
 }
 
 .header-txt h1{
@@ -103,14 +103,15 @@ body{
     text-transform: uppercase;
     color: #266371;
     margin-bottom: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family:'Roboto Condensed', sans-serif;
 }
 
 .header-txt p{
-    font-size: 18px;
+    font-size: 30px;
     color: #ffff;
     font-weight: 500;
     margin-bottom: 25px;
+    font-family:'Roboto Condensed', sans-serif;
 }
 
 .btn-1{
